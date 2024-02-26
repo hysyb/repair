@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding:0;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+
+}
+.centered{
+    justify-self: center;
+}
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 48px;
+    padding-left: 75px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    body{
+        align-content: start;
+        padding-top: 4em;
+    }
+    img{
+        width: 300px;
+        height: auto;
+    }
+    h1 {
+        padding-left: 10%;
+    }
+    
+}
