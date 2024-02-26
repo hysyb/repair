@@ -6,6 +6,7 @@ body{
     align-content: center;
     background-image: url('bg.jpg');
     background-size: 100%;
+    font-family: 'Brush Script MT', cursive;
 
 }
 .centered{
@@ -13,12 +14,13 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     margin-top: 5%;
     border-radius: 5%;
+    padding: 1%;
 }
 .wrapper{
     opacity: 1.5;
 }
 h1 {
-    font-family: 'Brush Script MT', cursive;
+    
     font-size: 48px;
     padding-left: 20%;
 }
@@ -30,6 +32,54 @@ img{
     margin-top: 15%;
 }
 
+.form-style-9{
+	max-width: 250px;
+	background: #FAFAFA;
+	padding: 30px;
+	margin-left: 10%;
+	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+	border-radius: 10px;
+	border: 3px solid #305A72;
+	list-style:none;
+    display: flex;
+    flex-direction: column;
+ 
+   
+}
+
+.form-style-9 .field-style{
+	padding: 8px;
+	outline: none;
+	border: 1px solid #B0CFE0;
+
+
+}.form-style-9 ul li  .field-style:focus{
+	box-shadow: 0 0 5px #B0CFE0;
+	border:1px solid #B0CFE0;
+}
+.form-style-9 ul li textarea{
+	width: 99%;
+	height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+	box-shadow: inset 0px 1px 0px 0px #3985B1;
+	background-color: #216288;
+	border: 1px solid #17445E;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+	background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+	background-color: #28739E;
+}
 
 
 @media only screen and (max-width: 600px){
@@ -51,5 +101,9 @@ img{
     iframe{
         width: 82vw;
     }
+    .form-style-9{
+        margin-left: 0;
+    }
+
     
 }
