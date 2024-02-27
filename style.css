@@ -17,12 +17,14 @@ body{
     padding: 1%;
 }
 .wrapper{
-    opacity: 1.5;
+   display: flex;
+   flex-direction: column;
 }
 h1 {
     
     font-size: 48px;
-    padding-left: 20%;
+    align-self: center;
+
 }
 a{
     padding-left: 20%;
@@ -30,13 +32,15 @@ a{
 }
 img{
     margin-top: 15%;
+    width: 300px;
+    align-self: center;
 }
 
 .form-style-9{
 	max-width: 250px;
 	background: #FAFAFA;
 	padding: 30px;
-	margin-left: 10%;
+	margin-left: 0;
 	box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
 	border-radius: 10px;
 	border: 3px solid #305A72;
@@ -63,16 +67,5 @@ img{
     }
     .centered{
         margin-top: 0;
-    }
-    h1 {
-        padding-left: 14%;
-    }
-    iframe{
-        width: 82vw;
-    }
-    .form-style-9{
-        margin-left: 0;
-    }
-
-    
+    }    
 }
